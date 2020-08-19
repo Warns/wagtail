@@ -55,9 +55,9 @@ def runtests():
     elif args.elasticsearch5:
         os.environ.setdefault('ELASTICSEARCH_URL', 'http://localhost:9200')
         os.environ.setdefault('ELASTICSEARCH_VERSION', '5')
-    elif args.elasticsearch6:
-        os.environ.setdefault('ELASTICSEARCH_URL', 'http://localhost:9200')
-        os.environ.setdefault('ELASTICSEARCH_VERSION', '6')
+#     elif args.elasticsearch6:
+#         os.environ.setdefault('ELASTICSEARCH_URL', 'http://localhost:9200')
+#         os.environ.setdefault('ELASTICSEARCH_VERSION', '6')
     elif args.elasticsearch7:
         os.environ.setdefault('ELASTICSEARCH_URL', 'http://localhost:9200')
         os.environ.setdefault('ELASTICSEARCH_VERSION', '7')
