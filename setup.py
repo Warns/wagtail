@@ -89,7 +89,7 @@ setup(
     author_email='hello@wagtail.io',  # For support queries, please see https://docs.wagtail.io/en/stable/support.html
     url='https://wagtail.io/',
     packages=find_packages(),
-    # include_package_data=True,
+    include_package_data=True,
     license='BSD',
     long_description="Wagtail is an open source content management \
 system built on Django, with a strong community and commercial support. \
