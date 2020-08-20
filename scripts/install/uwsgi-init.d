@@ -61,7 +61,7 @@ send_sig()
     set -e
 }
 
-wait_and_clean_pidfile()
+wait_and_clean()
 {
     local PIDFILE=$RUN/uwsgi.pid
     until do_pid_check $PIDFILE; do
