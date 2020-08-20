@@ -44,7 +44,7 @@ def get_complete_version(version=None):
 
 def get_semver_version(version):
     "Returns the semver version (X.Y.Z[-(alpha|beta)]) from VERSION"
-    main = '.'.join(str(version) for x in version[:3])
+    main = '.'.join(str(x) for x in version[:3])
 
     sub = ''
     if version[3] != 'final':
